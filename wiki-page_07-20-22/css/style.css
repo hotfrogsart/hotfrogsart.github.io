@@ -27,7 +27,7 @@ body {
 .pink-text {
   color:pink;
   padding:50px;
-  border: 5px ridge Pink;
+  border-top: 5px ridge Pink;
 }
 
 .padding{
