@@ -1,0 +1,45 @@
+*{
+  margin:0px;
+}
+body{
+  background-color:grey;
+  margin:0px;
+  padding:50px;
+}
+
+.main-container{
+  background-color:white;
+  padding:25px;
+  border:2px solid black;
+  box-shadow: 5px 5px 5px 3px rgba(30,30,30,0.4);
+}
+
+#img1{
+  width:30%;
+  float:right;
+  margin:50px;
+  border-radius: 2px;
+  border: 2px solid grey;
+  padding:10px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+
+}
+
+#img2 {
+  width:25%;
+}
+
+#img3 {
+  width:20%;
+}
+
+#img4{
+  width:30%;
+}
+
+.contents-container{
+  background-color:lightgrey;
+  border: 2px solid grey;
+  padding:4px;
+  width:40%
+}
