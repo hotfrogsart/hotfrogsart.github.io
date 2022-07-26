@@ -1,0 +1,67 @@
+body{
+  background-color:Lavender;
+  font-family:"helvetica", sans-serif;
+  padding:100px;
+  }
+
+.header {
+  background-color:white;
+  font-family:"reglisse", sans-serif;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:30px;
+  border-radius:10px 10px 0px 0px;
+  }
+
+.header-image{
+  width:25%;
+  }
+
+.header-title{
+  color:RebeccaPurple;
+  font-size:4em;
+  }
+/* navigation bar styling */
+.nav{
+  background-color:RebeccaPurple;
+  padding:15px;
+  }
+
+.nav ul{
+  padding-left:0px;
+  }
+
+.nav li{
+  list-style-type:none;
+  display:inline;
+  padding:5px 10px;
+  color:white;
+  }
+.nav li:hover{
+  color:plum;
+  }
+/* ~~~ */
+
+.content{
+  background-color:white;
+  padding:30px;
+  border-left:3px solid RebeccaPurple;
+  }
+
+.content-header{
+  font-family:"reglisse";
+  }
+
+.footer{
+  background-color:white;
+  height:200px;
+  border-top: 3px solid rebeccapurple;
+  border-radius:0px 0px 10px 10px;
+  }
+
+.main{
+  border:5px solid rebeccapurple;
+  border-radius:15px;
+  box-shadow:7px 7px 3px 3px plum;
+  }
