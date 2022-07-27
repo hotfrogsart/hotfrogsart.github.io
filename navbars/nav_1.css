@@ -1,0 +1,58 @@
+body{
+  background-color:oldlace;
+  font-family: monospace;
+  }
+
+main{
+  margin:100px;
+  border: 2px solid sienna;
+  box-shadow:3px 3px 3px 3px moccasin;
+  color:sienna;
+  }
+
+header{
+  background-color:mintcream;
+  padding:20px;
+  text-align:center;
+  border-bottom:2px solid sienna;
+  }
+nav{
+  border-bottom:2px solid sienna;
+  }
+
+nav ul{
+    display:flex;
+    padding-left:0px;
+    justify-content:center;
+    /* border canary */
+      /* border:1px solid red; */
+    }
+
+nav li{
+  list-style-type:none;
+  padding:0px 10px;
+  }
+
+nav a{
+  color:sienna;
+  text-decoration:overline;
+  text-decoration-style:dashed;
+  }
+
+nav a:hover {
+  color:sandybrown;
+  text-decoration:underline;
+  text-decoration-style:dashed;
+  font-weight:bold;
+  font-style:italic;
+  }
+
+section{
+  padding:25px;
+  }
+
+.card {
+  margin:20px 0px;
+  border:2px dashed sienna;
+  padding:50px;
+  }
