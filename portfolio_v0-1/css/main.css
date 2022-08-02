@@ -1,0 +1,27 @@
+body{
+background-color:pink;
+  padding:70px;
+
+  }
+
+.hotfrogsart_logo{
+  width:15%;
+  }
+
+header{
+    background-color:ivory;
+    font-family:"reglisse";
+    color:#EF6792;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:50px;
+    border-radius:20px 20px 0px 0px;
+    border:3px solid #EF6792;
+    }
+
+header h1{
+  text-decoration:underline;
+  text-decoration-style:wavy;
+  text-decoration-color:#EF6792;
+  }
