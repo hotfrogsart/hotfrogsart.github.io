@@ -1,0 +1,77 @@
+body{
+  margin:0px;
+  background-color:white;
+  }
+
+header{
+color:darkcyan;
+background-color:black;
+padding:20px;  
+font-family:sans-serif;
+}
+
+/* navbar begins */
+
+nav{
+  font-family:sans-serif;
+  background-color: white;
+  padding:5px
+  }
+
+nav ul{
+  display:flex;
+  padding-left:0px;
+  justify-content:left;
+  }
+
+nav li{
+ list-style-type:none;
+ display:inline;
+ flex:.10;
+  }
+
+nav a{
+  text-decoration-color: darkcyan;
+  color:black;
+  }
+/* navbar ends */
+
+main{
+  background-color:darkcyan;
+  padding:20px;
+  margin:5px;
+  }
+
+  main h3{
+  padding-left:10px;
+  font-family: sans-serif;
+  }
+.section-1{
+  background-color: lightgray;
+  padding:20px;
+  margin:20px;
+  font-family:sans-serif;
+  }
+
+.section-1 h3{
+  padding-left:0px; 
+  }
+
+.section-2{
+  background-color: lightgray;
+  padding:20px;
+  margin: 20px;
+  font-family:sans-serif;
+  }
+
+.section-2 h3{
+  padding-left:0px; 
+  }
+
+footer{
+  background-color: black;
+  color:darkcyan;
+  font-family: sans-serif;
+  padding:10px;
+  font-weight:bold;
+  } 

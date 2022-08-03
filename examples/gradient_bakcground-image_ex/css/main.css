@@ -1,0 +1,40 @@
+body{
+  margin:0px;
+  }
+
+main{
+  height:90vh;
+  background:linear-gradient(hotpink, yellow, aqua);
+  border: 2px solid orangered;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+
+main:hover {
+  background:linear-gradient(aqua,yellow,hotpink);
+  }
+
+header{
+  /* default css */
+  height:150px;
+  display:flex;
+  align-items: center;
+  padding: 25px;
+
+  /* background image */
+  background: url("../assets/header_background.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  }
+
+h1{
+  color:deeppink;
+  font-family:sans-serif;
+  font-size:7em;
+  }
+
+h2{
+  color:aqua;
+  }
