@@ -1,0 +1,15 @@
+body{
+  margin:0px;
+  }
+
+.bill, .phone, .gas, .food{
+  background-color:pink;
+  }
+
+th{
+  background-color: lightblue;
+  }
+
+tr{
+  background-color: lightblue;
+  }
