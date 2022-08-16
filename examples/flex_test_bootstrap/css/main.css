@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&display=swap');
+
 body{
   margin: 0px;
   }
@@ -26,6 +28,7 @@ nav{
   justify-content:space-between;
   align-items:center;
   padding:20px 0px ;
+  font-family:dynapuff;
   }
 
 nav ul{
@@ -93,3 +96,12 @@ footer{
   width:100%;
   }
 /* grid code fin */
+
+/* bootstrap code */
+.row .col {
+  background-color: pink;  
+  }
+
+.col img {
+  width:100%;
+  }
