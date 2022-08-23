@@ -2,16 +2,16 @@
 
 
 body{
-
-margin:0px;
-font-family: "Aref Ruqaa", serif;
-background-image: url("../assets/backgrounds/grrm_background_2.png");
-background-size: cover;
-background-position: top center;
-background-repeat: no-repeat;
-}
+  margin:0px;
+  font-family: "Aref Ruqaa", serif;
+  background-image: url("../assets/backgrounds/grrm_background_2.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  }
 
 header{
+  padding:20px;
   font-weight:900%;
   display:flex;
   justify-content:center;
@@ -26,10 +26,14 @@ header{
 
 /* navbar styling start */
 nav {
-  padding: 20px;
+  padding: 0px;
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
   }
 
-nav ul{
+nav ul{ 
   padding-left: 0px;
   display: flex;
   justify-content: space-between;
@@ -38,19 +42,29 @@ nav ul{
 
 nav li{
   list-style-type: none;
-  font-size: 8pt;
+  font-size:12pt;
+  font-family: "Source Serif Variable", Serif;
+  font-weight: bold;
+  color: white;
+  border: 12px solid maroon;
+  background-color: maroon;
+  border-radius:0px 0px 20px 20px;
   }
 
 nav a{
-  text-decoration: none;
+  text-decoration: none; 
+  }
+
+nav li:hover {
+  color: rgb(255, 196, 0);
+  border-radius:0px 0px 3px 3px;
+  transition: 0.4s;
   }
 
 nav a:hover{
-  color: maroon;
   text-decoration: underline;
   text-decoration-style: dashed;
-  font-style: italic;
-
+  text-decoration-color: maroon;
   }
 
 /* navbar fin */
