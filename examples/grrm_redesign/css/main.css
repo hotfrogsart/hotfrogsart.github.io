@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Aref+Ruqaa:wght@400;700&display=swap');
+
+
+body{
+
+margin:0px;
+font-family: "Aref Ruqaa", serif;
+background-image: url("../assets/backgrounds/grrm_background_2.png");
+background-size: cover;
+background-position: top center;
+background-repeat: no-repeat;
+}
+
+header{
+  font-weight:900%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  }
+
+.header_logo {
+  fill:currentColor; 
+  color:maroon;
+  width:8%;
+  }
+
+/* navbar styling start */
+nav {
+  padding: 20px;
+  }
+
+nav ul{
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  }
+
+nav li{
+  list-style-type: none;
+  font-size: 8pt;
+  }
+
+nav a{
+  text-decoration: none;
+  }
+
+nav a:hover{
+  color: maroon;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  font-style: italic;
+
+  }
+
+/* navbar fin */
