@@ -26,6 +26,7 @@ header h1 {
   fill:currentColor; 
   color:maroon;
   width:8%;
+  margin-right:25px;
   }
 
 /* navbar styling start */
@@ -104,16 +105,22 @@ main h2{
 .banner{
   display:flex; 
   margin:0px;
-  width:100;
+  /* width:100; */
   }
 
 .banner img{
+  width:1;
   justify-content: center;
   align-items: center;
   flex:1;
   padding: 5px;
   /* border: 3px solid grey; */
 }
+
+/* .images-footer{
+  width:100%;
+  flex:1;
+  } */
 
 .col{
   padding-top:10px;
@@ -131,6 +138,7 @@ main h2{
   }
 
 .content{
+  margin:10px;
   padding:10px;
   border-bottom: 2px solid grey;
   border-right: 2px solid grey;
