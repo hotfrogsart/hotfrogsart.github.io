@@ -27,6 +27,7 @@ header h1 {
   color:maroon;
   width:8%;
   margin-right:25px;
+  max-width: 100px;;
   }
 
 /* navbar styling start */
@@ -91,6 +92,8 @@ main{
   padding: 15px;
   background-color:rgb(216, 215, 215);
   border: 3px solid maroon;
+  max-width: 950px;
+  margin:auto;
   }
 
 main h2{
@@ -128,8 +131,12 @@ main h2{
 
 .col , .col-4{
  padding-left:0px;
- 
  padding-right:6px;
+}
+
+.col-8, .col-4{
+overflow: scroll;
+height:800px;
 }
 
 .col img{
@@ -182,21 +189,29 @@ footer h3{
   font-size: 10pt;
   }
 
+@media only screen and (max-width:615px){
+  nav li{
+    font-size: 9pt; 
+  }  
+
+}
+
+
 /* phone sizing */
 
 /* phone sizing fin */
 
 
 /* tablet sizing */
-@media screen and (min-width: 480px) and (max-width: 799px) {
+/* @media screen and (min-width: 480px) and (max-width: 799px) {
 
-}
+} */
 /* table sizing fin */
 
 /* ... */
 
 /* desktop sizing */
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
 
-  }
+  } */
 /* desktop sizing fin */
