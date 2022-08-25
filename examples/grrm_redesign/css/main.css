@@ -181,3 +181,22 @@ footer{
 footer h3{
   font-size: 10pt;
   }
+
+/* phone sizing */
+
+/* phone sizing fin */
+
+
+/* tablet sizing */
+@media screen and (min-width: 480px) and (max-width: 799px) {
+
+}
+/* table sizing fin */
+
+/* ... */
+
+/* desktop sizing */
+@media screen and (min-width: 800px) {
+
+  }
+/* desktop sizing fin */
