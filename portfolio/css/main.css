@@ -10,16 +10,22 @@ background-color:#F7B2C8;
 
 .header_hearts{
   display:flex;
+  width:15%;
+  max-width:150px;
+  min-width:75px;
   }
 
 .header_hearts img{
   width:20%;
   padding:5px;
+  max-width: 250px;
+  flex:1;
   /* color:#F8F7F8; */
   }
 
 .hotfrogsart_logo{
   width:15%;
+  max-width:150px;
   }
 
 header{
@@ -41,18 +47,24 @@ nav{
   justify-content: center;
   align-items: center;
   padding:10px;
+  border:5px solid #F06793;
+  border-top:0px;
+  border-bottom:0px;
   }
   
 nav ul{
+  display: flex;
   margin:0px;
   padding: 0px;
-  
+  justify-content: space-between;
+  width:95%;
   }
 
 nav li{
-  display:inline-flex;
   list-style-type:none;
   padding:10px;
+  /* flex:1; */
+  /* text-align: center; */
   }
 
 nav a{
@@ -66,12 +78,21 @@ nav a{
 
 nav a:hover {
 color:#E82768;
-
+text-decoration-color: #E82768;
+text-decoration: underline;
+text-decoration-style: wavy;
 }
+
+
 /* **** */
 
 main{
   background-color:#F8F7F8;
+  border-left:5px solid #F06793;
+  border-right:5px solid #F06793;
+  margin:0px;
+  padding:10px;
+
   }
 
 footer{
@@ -85,3 +106,21 @@ footer{
   border-radius:0px 0px 40px 40px;
   border:5px solid #F06793;
   }
+
+
+  /* responsiveness */
+  @media only screen and (max-width: 580px) {
+    nav a{
+      font-size:12px;
+      }
+    }
+  
+  @media only screen and (min-width:1500px) {
+    nav a{
+      font-size: 24px;
+      }
+    nav ul{
+      width:75%;
+      }
+    } 
+  /* responsiveness fin */
