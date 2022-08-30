@@ -1,17 +1,21 @@
 @import url("https://use.typekit.net/fob6yrf.css");
 
 
+.full_page{
+  border-radius:40px 40px 40px 40px;
+  box-shadow: 3px 3px 7px 5px #f282a6;
+  }
+
 body{
-background-color:#F7B2C8;
+  background-color:#F7B2C8;
   padding:70px;
   }
 
 /* header style */
-
 .header_hearts{
   display:flex;
-  width:15%;
-  max-width:150px;
+  width:17%;
+  max-width:170px;
   min-width:75px;
   }
 
@@ -38,8 +42,8 @@ header{
     padding:20px;
     border-radius:40px 40px 0px 0px;
     border:5px solid #F06793;
-    box-shadow: 2px 2px 7px 5px #f282a6;
   }
+/* header fin */
 
 /* navbar styling */
 nav{
@@ -51,9 +55,6 @@ nav{
   border:5px solid #F06793;
   border-top:0px;
   border-bottom:0px;
-  box-shadow: 2px 2px 7px 5px #f282a6; 
-
-  /* LOOK HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
   }
   
 nav ul{
@@ -86,9 +87,7 @@ text-decoration-color: #E82768;
 text-decoration: underline;
 text-decoration-style:solid;
 }
-
-
-/* **** */
+/* navbar fin */
 
 main{
   background-color:#F8F7F8;
@@ -96,7 +95,6 @@ main{
   border-right:5px solid #F06793;
   margin:0px;
   padding:10px;
-  box-shadow: 0px 2px 7px 5px #f282a6;
   }
 
 footer{
@@ -109,7 +107,6 @@ footer{
   padding:10px;
   border-radius:0px 0px 40px 40px;
   border:5px solid #F06793;
-  box-shadow: 2px 2px 7px 5px #f282a6;
   }
 
 
