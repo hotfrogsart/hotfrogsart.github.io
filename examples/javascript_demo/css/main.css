@@ -2,5 +2,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body{
+  margin:0px;
+  font-family: "Montserrat";
+  }
+
+  /* MAIN PAGE  */
+#main_page{
+  margin: 5% auto;
+  box-sizing: border-box;
+  width: 90%;
+  border: 5px solid #e1a177;
+  }
+/* MAIN PAGE FIN  */
+
+/* HEADER */
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  }
+
+.header_right img{
+  width:100%;
+  }
+
+.header_left{
+  font-family:"Lobster";
+  }
+/* HEADER FIN  */
+
+/* <...> */
+
+/* NAVBAR */
+nav{
   
   }
+
+nav ul{
+  display:flex;
+  margin:0;
+  padding-left:0;
+  }
+
+nav li{
+  list-style-type:none;
+  }
+
+nav a{
+  text-decoration:none;
+  color:#e1a177;
+  }
+
+/* NAVBAR FIN  */
+
+/* <...> */
+
+/* MAIN */
+main{
+  /* temporary */
+  height:500px;
+  /* temporary */
+  }
+/* MAIN FIN */
+
+/* <...> */
+
+/* FOOTER */
+footer{
+  display:flex;
+  }
+
+.footer_left{
+  flex:2;
+  }
+
+.footer_left img{
+  width: 100%;
+  }
+
+.footer_center{
+  flex:1;
+  }
+
+.footer_right{
+  flex:1;
+  }
+ 
+/* FOOTER FIN */
