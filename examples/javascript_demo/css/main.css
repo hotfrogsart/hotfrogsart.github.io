@@ -89,3 +89,14 @@ footer{
   }
  
 /* FOOTER FIN */
+
+
+/* JS DEMO 1 */
+.about_text{
+  display:none;
+  }
+
+.reveal{
+  display:block;
+  }
+/* DEMO 1 FIN  */
