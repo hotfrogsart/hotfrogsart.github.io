@@ -12,6 +12,7 @@ body{
   box-sizing: border-box;
   width: 90%;
   border: 5px solid #e1a177;
+  border-radius: 10px 0px 0px 10px;
   }
 /* MAIN PAGE FIN  */
 
@@ -20,6 +21,7 @@ header{
   display:flex;
   justify-content:space-between;
   align-items:center;
+  background: linear-gradient( 135deg, #e1a177, transparent);
   }
 
 .header_right img{
@@ -28,6 +30,13 @@ header{
 
 .header_left{
   font-family:"Lobster";
+  color:white;
+  text-shadow: 2px 3px 0px brown;
+  }
+
+.header_left h1{
+  margin-left: 40px;
+  font-size: 2.75rem;
   }
 /* HEADER FIN  */
 
@@ -98,5 +107,39 @@ footer{
 
 .reveal{
   display:block;
+  }
+
+#date_element{
+  text-align:center;
+  }
+
+.time_wrapper{
+  background-color: #e1a177;
+  height:400px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  color:white;
+  background-image: url(../assets/photos/coffee_cover.png);
+  background-size:cover;
+  background-position: 0px, bottom;
+  background-attachment: fixed;
+  }
+
+.time_wrapper h4 {
+  font-size: 32pt;
+  text-shadow: 2px 3px 0px rgb(117, 25, 25);
+  font-family:"Lobster";
+  font-size: 3rem;
+  margin:20px;
+  }
+
+.time_wrapper p {
+  font-size: 32pt;
+  text-shadow: 2px 3px 0px rgb(117, 25, 25);
+  font-family:"Montserrat";
+  font-size: 1rem;
+  margin:10px;
   }
 /* DEMO 1 FIN  */
