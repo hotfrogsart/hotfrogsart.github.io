@@ -93,6 +93,7 @@ nav a:hover{
 /* MAIN */
 main{
   background-color: #e1a177;
+  margin:0px;
   }
 
 main p{
@@ -137,15 +138,23 @@ main p{
   }
 
 .content_2{
+  margin:0px;
   display: flex;
-  margin-top:30px;
   justify-content: center;
   align-items: center;
+  padding:40px;
   }
+
 .content_2 img{
   width:25%;
   padding: 10px 15px;
   border-radius: 50%;
+  transition: 2s;
+  transition-property:transform;
+  }
+
+.content_2 img:hover{
+  transform:rotate(180deg)
   }
 /* MAIN FIN */
 
