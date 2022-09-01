@@ -12,7 +12,7 @@ body{
   margin: 5% auto;
   box-sizing: border-box;
   width: 90%;
-  border: 5px solid #e1a177;
+  border: 5px solid black;
   border-radius: 10px 0px 0px 10px;
   }
 /* MAIN PAGE FIN  */
@@ -22,8 +22,12 @@ header{
   display:flex;
   justify-content:space-between;
   align-items:center;
+  /* border:5px solid black; */
+  border-radius:6px 0px 0px 0px;
   background: linear-gradient(135deg, #e1a177 60%, white 60%);
   padding: 20px 50px;
+  /* border-bottom: 2px dotted white; */
+
   }
 
 .header_right{
@@ -43,7 +47,7 @@ header{
 .header_left{
   font-family:"Lobster";
   color:white;
-  text-shadow: 2px 3px 0px brown;
+  text-shadow: 2px 3px 0px black;
   }
 
 .header_left h1{
@@ -58,10 +62,12 @@ header{
   margin:0px;
   }
 nav{
-  background-color: #e1a177;
+  background-color:black;
   margin:0px;
   box-sizing: border-box;
-  padding:3px;
+  padding:20px;
+  /* border-bottom:2.5px dashed white; */
+  /* box-shadow: 0px 0px 2px 0px brown; */
   }
 
 nav ul{
@@ -82,7 +88,7 @@ nav a{
   }
 
 nav a:hover{
-  color:black;
+  color:white;
   font-style: italic;
   text-decoration: underline;
   }
@@ -101,32 +107,53 @@ main p{
   }
 
 .about_button_wrapper{
-  text-align: center;
+  text-align:center;
   color:white;
   }
 
 .about_button_wrapper h2{
   margin:0px;
-  padding-top:30px;
-  padding-bottom: 10px;
+  padding-top:15px;
+  padding-bottom: 20px;
   color:white;
-  text-shadow: 2px 3px 0px rgb(117, 25, 25);
+  text-shadow: 2px 3px 0px rgb(9, 0, 0);
   }
 
 .about_button{
   margin-top:0px;
+  margin-bottom:20px;
+  border:solid 2px white;
+  border-radius:3px;
+  color: white;
+  background-color:#e1a177;
+  text-shadow: .5px .25px 0px brown;
+  font-family:"lobster";
+  padding:0px 10px;
+  }
+
+.about_button:hover{
+  color:white;
+  background-color: black;
+  border:solid 2px white ;
+  border-radius: 3px;
+  }
+
+.reveal{
   margin-bottom:10px;
+  font-size: 10pt;
+  padding:20px;
   }
 
 .content{
   text-align: center;
+  padding:20px;
   }
 
 .content h3{
   color: white;
   font-family: lobster;
-  text-shadow: 2px 3px 0px brown;
-  margin:20;
+  text-shadow: 2px 3px 0px black;
+  margin:20px;
   margin-bottom:10px;
   font-size: 30px;
   }
@@ -172,7 +199,7 @@ footer{
   flex:2;
   background: white;
   width:100%;
-  border-radius:0px 0px 0px 8px;
+ 
   }
 
 .footer_left img{
@@ -287,7 +314,7 @@ footer{
 
 .time_wrapper h4 {
   font-size: 32pt;
-  text-shadow: 2px 3px 0px rgb(117, 25, 25);
+  text-shadow: 2px 3px 0px rgb(9, 0, 0);
   font-family:"Lobster";
   font-size: 3rem;
   margin:20px;
@@ -295,7 +322,7 @@ footer{
 
 .time_wrapper p {
   font-size: 32pt;
-  text-shadow: 2px 3px 0px rgb(117, 25, 25);
+  text-shadow: 2px 3px 0px rgb(9, 0, 0);
   font-family:"Montserrat";
   font-size: 1rem;
   margin:10px;
