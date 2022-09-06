@@ -48,9 +48,9 @@
       </nav>
       <!-- ... -->
       <main>
-        <h3>home</h3>
+        <!-- <h3>home</h3> -->
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -75,6 +75,12 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+        </div> -->
+
+        <div class="time_wrapper">
+          <h4> 🎓🚂 Graduation Station 🚂🎓</h4>
+          <p>💖 all aboard choo-choo 💖</p>
+            <p id="date_element"></p>
         </div>
 
       </main>
@@ -90,8 +96,32 @@
 
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+         
+      <script>
+
+        function toggleContent() {
+          var b = document.getElementById("js_demo");
+          b.classList.toggle("reveal"); 
+          }
+
+        var datePg = document.getElementById("date_element");
+        
+        function revealDate() {
+          datePg.innerHTML = Date();
+          } 
+          
+        revealDate();
+
+      </script>
+
+      <script src="./js/countdown.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
     
-    </body>
+      </body>
 
   </div>
 
