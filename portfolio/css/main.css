@@ -75,7 +75,7 @@ nav li{
 nav a{
   text-decoration:none;
   color:#F16793;
-  font-family: brevia, sans-serif;
+  font-family: "brevia", sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size: 20px;
@@ -96,10 +96,11 @@ main{
   margin:0px;
   padding:10px;
   }
-
+  
+/* footer */
 footer{
   background-color:#F7B2C8;
-  font-family:"reglisse", sans-serif;
+  font-family:"brevia", sans-serif;
   color:#EF6792;
   display:flex;
   align-items:center;
@@ -109,6 +110,27 @@ footer{
   border:5px solid #F06793;
   }
 
+.footer_left{
+  flex:2;
+  color: #E82768;
+  padding-left: 10px;
+  }
+
+.footer_left h4{
+  font-family: "brevia", sans-serif;
+  font-weight: bold;
+  }
+
+.footer_img{
+  flex:1;
+  padding-right:10px;
+  }
+  
+footer img{
+  width:100%;
+  }
+/* footer fin */
+
 /* java */
 
 #date_element{
@@ -116,14 +138,14 @@ footer{
   }
 
 .time_wrapper{
-  background-color: #e1a177;
+  background-color: #F7B2C8;
   height:400px;
   display:flex;
   justify-content:center;
   align-items:center;
   flex-direction:column;
-  color:white;
-  background-image: url(../assets/photos/coffee_cover.png);
+  color: #F8F7F8;
+  background-image: url(../assets/web_images/timer_background_pink.png);
   background-size:cover;
   background-position: 0px, bottom;
   background-attachment: fixed;
@@ -131,16 +153,17 @@ footer{
 
 .time_wrapper h4 {
   font-size: 32pt;
-  text-shadow: 2px 3px 0px rgb(9, 0, 0);
-  font-family:"Lobster";
+  text-shadow: 2px 3px 0px #E82768;
+  font-family:"Brevia";
   font-size: 3rem;
+  font-weight: bold;
   margin:20px;
   }
 
 .time_wrapper p {
   font-size: 32pt;
-  text-shadow: 2px 3px 0px rgb(9, 0, 0);
-  font-family:"Montserrat";
+  text-shadow: 2px 2px 0px #E82768;
+  font-family:"brevia";
   font-size: 1rem;
   margin:10px;
   }
