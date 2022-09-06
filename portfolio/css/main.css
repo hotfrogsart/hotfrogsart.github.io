@@ -27,6 +27,11 @@ body{
   /* color:#F8F7F8; */
   }
 
+.header_hearts img:hover{
+  transform: rotate(20deg);
+  transition: .2s;
+  }
+
 .hotfrogsart_logo{
   width:15%;
   max-width:150px;
@@ -96,7 +101,7 @@ main{
   margin:0px;
   padding:10px;
   }
-  
+
 /* footer */
 footer{
   background-color:#F7B2C8;
@@ -111,19 +116,49 @@ footer{
   }
 
 .footer_left{
-  flex:2;
+  flex:1;
   color: #E82768;
-  padding-left: 10px;
   }
 
 .footer_left h4{
+  margin:5px;
   font-family: "brevia", sans-serif;
   font-weight: bold;
+  text-shadow: -2.5px 0px 0px #f282a6;
+  transform-origin: left;
   }
+
+.footer_left h4:hover{
+  /* transform: rotate(5deg); */
+  transform:rotate(-3deg);
+  transition:.2s;
+  }
+
+/* 
+.footer_left ul{
+  margin:10px;
+  padding:0px;
+  }
+
+.footer_left li{
+  list-style-type:none;
+  }
+
+.footer_left a{
+  color:#E82768;
+  text-decoration: none;
+  font-family:"brevia", sans-serif;
+  }
+
+.footer_left a:hover{
+  color:#F8F7F8;
+  text-decoration: underline;
+  } */
 
 .footer_img{
   flex:1;
   padding-right:10px;
+  max-width: 150px;
   }
   
 footer img{
