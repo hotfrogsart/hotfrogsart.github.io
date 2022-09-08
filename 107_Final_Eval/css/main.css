@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+  font-family: "Quicksand" ,sans-serif;
+  background-color:#05730C;
+  }
+/* header styling */
+header{
+  color:white;
+  padding:20px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+header h1{
+  font-family: "Oswald", sans-serif;
+  }
+
+/* header fin  */
+button{
+  background-color: white;
+  border: white;
+  color:#05730C;
+  padding:10px;
+  border-radius: 5px;
+  }
+
+button:hover{
+  background-color: #777709 ;
+  color: white;
+  }
+/* navbar */
+.full_page{
+  margin: 20px;
+  margin-top: 0px;
+  }
+nav{
+  color:#046960;
+  background-color: white;
+  padding-left:10px;
+  padding-right:10px;
+  margin-top:10px;
+  border: 2px solid white;
+  border-radius: 5px 5px 0px 0px;
+  }
+
+nav ul{
+  display:flex;
+  justify-content: space-between;
+  padding:15px;
+  }
+
+nav li{
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  }
+
+nav a{
+  text-decoration: none;
+  color:#046960; 
+  } 
+
+nav a:hover {
+  text-decoration: underline;
+  font-size: large;
+  color:#046960;
+  }
+
+/* navbar fin  */
+
+
+/* main */
+main{
+  margin:0px;
+  }
+
+main .button{
+  padding:10px;
+  }
+
+.content{
+  color:white;
+  background-image: url(../assets/photos/allec-gomes-fgkKl_kPGOM-unsplash.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  background-position:  30px, 20px, bottom;
+  }
+
+.content h2{
+  padding-top:25px;
+  padding-left:10px;
+  font-family: "Oswald", sans-serif;
+  font-size: 50pt;
+  }
+
+.content p{
+  margin-top:10px;
+  padding-left:10px;
+  padding-right: 300px;
+  /* padding-bottom: 50px; */
+  }
+/* main fin */
+
+/* footer */
+footer{
+  display: flex;
+  justify-content: space-between;
+  color:#05730C;
+  background-color:white;
+  border: 2px solid white;
+  border-radius: 0px 0px 5px 5px;
+  }
+
+.footer_left{
+  border-right:solid #05730C;
+  padding-right:60px;
+  padding-left: 20px;
+  padding-bottom:20px;
+  padding-top:20px;
+  }
+
+.footer_left h4{
+  margin-bottom: 20px;
+  text-decoration: underline;
+  }
+
+.footer_left ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  }
+  
+.footer_left li{
+  list-style: none;
+  }
+
+.footer_left a{
+  color:#05730C;
+  text-decoration: none;
+  } 
+
+.footer_left a:hover{
+  font-size: large;
+  text-decoration: underline;
+  }
+
+.footer_right {
+  padding-right:60px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  }
+
+.footer_right h4{
+  text-decoration: underline;
+  }
+
+.footer_button{
+  color: white;
+  border: white;
+  background-color:#777709;
+  padding:10px;
+  border-radius: 5px;
+  }
+.footer_button:hover{
+  color:white;
+  background-color:#05730C;
+  }
+/* footer fin  */
