@@ -1,2 +1,26 @@
+.content{
+    margin:20px;
+
+    }
+
+.content_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    }
+
+.content_header h1{
+    font-family:"brevia", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 45px;
+    color: #F06793;
+    }
+
+.content_header img{
+    width: 10%;
+    max-width: 50px;
+    }
 
 
