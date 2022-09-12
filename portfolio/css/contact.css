@@ -5,8 +5,55 @@
 .content_header{
     display: flex;
     justify-content: flex-end;
+    margin-bottom:50px;
     }
 
 .content_header img{
+    width: 40%;
+    max-width:400px;
+    margin-bottom: 50px;
+    }
 
+.content_paragraph h1{
+    /* margin-top: 20px; */
+    font-family:"brevia", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 45px;
+    color: #E82768;
+    /* margin-bottom: 50px; */
+    }
+
+.socials img{
+    width: 25%;
+    max-width: 250px;
+    min-width:75px;
+    padding-bottom: 5px;
+    }
+
+.socials ul{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left:0px;
+    }
+
+.socials a{
+    justify-content: space-between;
+    padding:0px;
+    flex:1;
+    text-align: center;
+    text-decoration: none;
+    }
+
+.socials li:hover{
+    color: #E82768;
+    text-decoration: underline;
+    font-size: larger;
+    }
+
+.socials li{
+    /* display:inline-block; */
+    list-style-type:none;
+    color: #F06793;
     }
