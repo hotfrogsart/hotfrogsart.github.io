@@ -45,6 +45,10 @@ header{
     border-radius:40px 40px 0px 0px;
     border:5px solid #F06793;
   }
+header h1{
+  color: #E82768;
+  font-size: 50px;
+  }
 /* header fin */
 
 /* navbar styling */
@@ -110,15 +114,67 @@ main{
   align-items: center;
   } 
 
-.content_left h4{
+.portfolio_header{
   font-family: "brevia", sans-serif;
   font-weight: bold;
-  color: #F06793;
-  font-size:55px;
+  color: #e82768;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 12px;
+  }
+
+.portfolio_link{
+  font-family: "brevia", sans-serif;
+  font-weight: bold;
+  color:#EF6792;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.portfolio_link :hover{
+  color:#E82768;
+  font-style: italic;
+  }
+  .portfolio_link a::before{
+    content:"☆ ";
+    } 
+
+a:-webkit-any-link{
+   color: #F06793; 
+   text-decoration: none;
+  }
+
+
+.class_examples{
+  font-family: "brevia", sans-serif;
+  font-weight: bold;
+  color:#EF6792;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction:column;
+  }
+
+.class_examples a::before{
+  content:"☆ ";
+  } 
+  
+.class_examples :hover{
+  color: #E82768;
+  font-style: italic;
+  text-decoration: none;
+  }
+
+.class_header{
+  font-style: normal;
+  color:#e82768;  
+  font-size: 12px;
+  font-family: "brevia", sans-serif;
+  font-weight: bold;
   margin-bottom: 20px;
   margin-top: 10px;
   }
-
 
 .content_bottom{
   margin-bottom: 10px;
@@ -167,8 +223,9 @@ footer{
   margin:5px;
   font-family: "brevia", sans-serif;
   font-weight: bold;
-  text-shadow: -2.5px 0px 0px #f282a6;
+  text-shadow: -1.5px 0px 0px #f282a6;
   transform-origin: left;
+  font-size: 20px;
   }
 
 .footer_left h4:hover{
@@ -208,6 +265,43 @@ footer img{
   width:100%;
   }
 /* footer fin */
+
+#date_element{
+  text-align:center;
+  }
+
+.time_wrapper{
+  background-color: #F7B2C8;
+  height:400px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  color: #F8F7F8;
+  background-image: url(../assets/web_images/timer_background_pink.png);
+  background-size:cover;
+  background-position: 0px, bottom;
+  background-attachment: fixed;
+  }
+
+.time_wrapper h4 {
+  font-size: 32pt;
+  text-shadow: 2px 3px 0px #E82768;
+  font-family:"Brevia";
+  font-size: 3rem;
+  font-weight: bold;
+  margin:20px;
+  }
+
+.time_wrapper p {
+  font-size: 32pt;
+  text-shadow: 2px 2px 0px #E82768;
+  font-family:"brevia";
+  font-size: 1rem;
+  margin:10px;
+  }
+/* java end  */
+
 
   /* responsiveness */
   @media only screen and (max-width: 580px) {

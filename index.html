@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="icon" href="./portfolio/assets/logos/1x/heart.png">
     <link rel="stylesheet" href="./css/main.css">
-    
+    <div class="full_page">
     <style>
       
       body{
@@ -20,24 +20,37 @@
     <body>
       <!-- ... -->
       <header>
+        <div class="header_hearts">
+          <img class="hearts_header" src="/assets/logos/2x/heart_pnw@2x.png" alt="white_hearts">
+          <img class="hearts_header" src="/assets/logos/2x/heart_pnw@2x.png" alt="white_hearts">
+          <img class="hearts_header" src="/assets/logos/2x/heart_pnw@2x.png" alt="white_hearts">
+        </div>
         <h1>Hotfrogsart Portal</h1>
-        <img class="hotfrogsart_logo" src="./assets/logos/1x/without text.png" alt="site_logo">
+        <img class="hotfrogsart_logo" src="assets/4x/Asset 1@4x.png" alt="site_logo">
       </header>
       <!-- ... -->
-      <nav>
-      
-      </nav>
+   
       <!-- ... -->
       <main>
         
-        <div class="porfolio">
-          <h4>°˖✧◝(>▿<)◜✧˖°</h4>
-          <h4>Portfolio</h4>
-          <a href="http://dev-hotfrogsart.pantheonsite.io/">Portfolio</a>
+        <div class="time_wrapper">
+          <h4>🎓🚂 Graduation Station 🚂 🎓</h4>
+          <p>💖 all aboard choo-choo 💖</p>
+            <p id="date_element"></p>
         </div>
-        
+
+        <div class="portfolio_header">
+          <h1>Hey !  👁👄👁</h1>
+        </div>
+        <div class="portfolio_link">
+          <a href="http://dev-hotfrogsart.pantheonsite.io/">Portfolio <- click me !!</a>
+        </div>
+
+        <div class="class_header"><h1> Web Development: Class Examples</h1></div>
+
+
         <div class="class_examples">
-          <h4> ! class examples ! </h4>
+
           <a href="./examples/gitty_up/index.html">Gitty Up</a>
           <a href="./examples/cute_whale_co/index.html">Cute Whale Co.</a>
           <a href="./examples/Taxidermy_Wiki/index.html">Taxidermy Wiki</a>
@@ -50,10 +63,47 @@
 
       </main>
       <!-- ... -->
-      <footer>
+       <footer>
 
+        <div class="footer_left">
+          <h4>thanks for visiting! (｡•̀ᴗ-)✧ </h4>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+
+        <div class="footer_img">
+          <img src="/assets/logos/1x/word mark.png" alt="word_mark_logo">
+        </div>
+      
       </footer>
       <!-- ... -->
-    </body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+         
+      <script>
 
+        function toggleContent() {
+          var b = document.getElementById("js_demo");
+          b.classList.toggle("reveal"); 
+          }
+
+        var datePg = document.getElementById("date_element");
+        
+        function revealDate() {
+          datePg.innerHTML = Date();
+          } 
+          
+        revealDate();
+
+      </script>
+
+      <script src="./js/countdown.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+    </body>
+  </div>
 </html>
